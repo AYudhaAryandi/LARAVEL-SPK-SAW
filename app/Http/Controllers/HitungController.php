@@ -132,7 +132,7 @@ class HitungController extends Controller
 
             // Normalisasi setiap nilai kriteria
             $norm_kriteria_1 = 10 / $kriteria_1;
-            $norm_kriteria_2 = $kriteria_2 / 20 ;
+            $norm_kriteria_2 = $kriteria_2 / 20;
             $norm_kriteria_3 = $kriteria_3 / 25;
             $norm_kriteria_4 = $kriteria_4 / 30;
             $norm_kriteria_5 = $kriteria_5 / 50;

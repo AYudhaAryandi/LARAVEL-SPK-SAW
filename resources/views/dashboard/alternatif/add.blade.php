@@ -55,25 +55,25 @@
                   <div class="form-group row">
                     <label for="kriteria_2" class="col-sm-2 col-form-label">C2</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" name="kriteria_2" placeholder="Nilai Kriteria (Jumlah Ulasan Positif)" required>
+                      <input type="text" class="form-control" name="kriteria_2" placeholder="Nilai Kriteria (Efisiensi Bahan Bakar)" required>
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="kriteria_3" class="col-sm-2 col-form-label">C3</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" name="kriteria_3" placeholder="Nilai Kriteria (Prestasi Mentor)" required>
+                      <input type="text" class="form-control" name="kriteria_3" placeholder="Nilai Kriteria (Kapasitas dan Kenyamanan)" required>
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="kriteria_4" class="col-sm-2 col-form-label">C4</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" name="kriteria_4" placeholder="Nilai Kriteria (Kecepatan Server)" required>
+                      <input type="text" class="form-control" name="kriteria_4" placeholder="Nilai Kriteria (Keamanan)" required>
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="kriteria_5" class="col-sm-2 col-form-label">C5</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" name="kriteria_5" placeholder="Nilai Kriteria (Tingkat Kemudahan Pemakaian)" required>
+                      <input type="text" class="form-control" name="kriteria_5" placeholder="Nilai Kriteria (Suku Cadang)" required>
                     </div>
                   </div>
                 </div>

@@ -7,12 +7,12 @@
       <div class="mb-4">
         <div class="table-responsive-2">
           <div class="table">
-            <h1>Add Course</h1>
+            <h1>Tambah Kendaraan</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Add Course</li>
+              <li class="breadcrumb-item active">Tambah Kendaraan</li>
             </ol>
           </div>
         </div>
@@ -27,7 +27,7 @@
         <div class="table-responsive-2">
           <div class="table">
               <div class="card-header">
-                <h3 class="card-title">Add Course</h3>
+                <h3 class="card-title">Tambah Kendaraan</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
@@ -35,9 +35,9 @@
                 @csrf
                 <div class="card-body">
                   <div class="form-group row">
-                    <label for="nama_course" class="col-sm-2 col-form-label">Nama Course</label>
+                    <label for="nama_Kendaraan" class="col-sm-2 col-form-label">Nama Kendaraan</label>
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" name="nama_course" placeholder="Nama Course" required>
+                      <input type="text" class="form-control" name="nama_course" placeholder="Nama Kendaraan" required>
                     </div>
                   </div>
                   <div class="form-group row">
@@ -51,8 +51,8 @@
                       <div class="col-sm-10">
                         <select class="custom-select" name="status" required>
                           <option>-- Status --</option>
-                          <option>Aktif</option>
-                          <option>Tidak Aktif</option>
+                          <option>Bekas</option>
+                          <option>Baru</option>
                         </select>
                          {{-- <input type="text" class="form-control" name="status" placeholder="status" required> --}}
                       </div>
