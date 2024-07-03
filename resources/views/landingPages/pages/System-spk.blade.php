@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('title')
-    Course System SPK page
+     System SPK 
 @endsection
 
 @section('content-1')

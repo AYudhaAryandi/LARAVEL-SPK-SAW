@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('title')
-    Course Contactpage
+     Contactpage
 @endsection
 
 @section('content-1')

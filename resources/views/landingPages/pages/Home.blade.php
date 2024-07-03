@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('title')
-    Course Homepage
+    Homepage
 @endsection
 
 @section('content-1')

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/images/logo.png">
-    <title>{{ $title }} | SPK Pemilihan Course Web Programming</title>
+    <title>{{ $title }} | SPK Rekomendasi Pemilihan Kendaraan</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
