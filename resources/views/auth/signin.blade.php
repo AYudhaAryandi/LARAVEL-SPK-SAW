@@ -96,7 +96,7 @@
 
 
               <button class="w-100 btn btn-lg btn-primary" type="submit">Masuk Sekarang</button>
-                    <p class="mt-3 mb-3 text-muted">&copy; SPK Rekomendasi Pemilihan Kendaraan {{ now()->  }}</p>
+                    <p class="mt-3 mb-3 text-muted">&copy; SPK Rekomendasi Pemilihan Kendaraan {{ now()->year}}</p>
 
               <span class="d-block text-left my-4 text-muted">&mdash; or login with &mdash;</span>
 
