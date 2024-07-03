@@ -18,6 +18,7 @@ class HitungController extends Controller
         $bobot3 = 25/$kriteria;
         $bobot4 = 30/$kriteria;
         $bobot5 = 15/$kriteria;
+
         $widget1 = [
             'kriteria' => $bobot1,
         ];
@@ -85,28 +86,6 @@ class HitungController extends Controller
             'nama_alternatif' => $hasil,
         ];
 
-        // $hasildua = $minC2/$maxC2;
-        // $hasil2 =[
-        //     'alternatif' => $hasil,
-        // ];
-
-        // $hasiltiga = $minC3/$maxC3;
-        // $hasil3 =[
-        //     'alternatif' => $hasil,
-        // ];
-
-        // $hasilempat = $minC4/$maxC4;
-        // $hasil4 =[
-        //     'alternatif' => $hasil,
-        // ];
-
-        // $hasillima = $minC5/$maxC5;
-        // $hasil =[
-        //     'alternatif' => $hasil,
-        // ];
-
-
-
         return view('dashboard/perhitungan/hitung', compact('hasil1','data', 'widget1', 'widget2', 'widget3', 'widget4','widget5', 'C1min', 'C1max', 'C2min', 'C2max', 'C3min', 'C3max', 'C4min', 'C4max','C5min', 'C5max'));
     }
 
@@ -136,7 +115,6 @@ class HitungController extends Controller
             $norm_kriteria_3 = $kriteria_3 / 25;
             $norm_kriteria_4 = $kriteria_4 / 30;
             $norm_kriteria_5 = $kriteria_5 / 50;
-            // $norm_keawetan = ($keawetan - $minValues->keawetan) / ($maxValues->keawetan - $minValues->keawetan);
 
 
             // Hitung hasil SAW

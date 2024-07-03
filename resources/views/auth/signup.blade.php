@@ -83,7 +83,7 @@
             <div class="col-md-8">
               <div class="mb-4">
               <h3>Register</h3>
-              <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p>
+              <p class="mb-4">Daftar akunmu sekarang.</p>
             </div>
 
             <form action="/signup" method="POST">
@@ -148,7 +148,7 @@
             </div>
 
             <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>
-            <p class="mt-3 mb-3 text-muted">&copy; SPK Pemilihan Course Web Programming {{ now()->year }}</p>
+            <p class="mt-3 mb-3 text-muted">&copy; SPK Rekomendasi Pemilihan Kendaraan{{ now()->year }}</p>
 
               <span class="d-block text-left my-4 text-muted">&mdash; or login with &mdash;</span>
 

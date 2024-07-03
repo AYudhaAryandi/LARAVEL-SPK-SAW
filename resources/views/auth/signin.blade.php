@@ -3,7 +3,7 @@
 {{-- @section('content')
   <main class="form-signin">
     <img class="mb-4" src="/assets/img/logops3.jpg" alt="" width="150" height="57">
-    <p><font size="5" face="Verdana">SPK Pemilihan Course <br> Web Programming</font></p>
+    <p><font size="5" face="Verdana">SPK Pemilihan Kendaraan <br> </font></p>
     <h1 class="h3 mb-3 fw-normal">Masuk</h1>
 
     <form action="/" method="POST">
@@ -37,7 +37,7 @@
       </div>
 
       <button class="w-100 btn btn-lg btn-primary" type="submit">Masuk Sekarang</button>
-      <p class="mt-3 mb-3 text-muted">&copy; SPK Course Web Programming (Online) {{ now()->year }}</p>
+      <p class="mt-3 mb-3 text-muted">&copy; SPK Rekomendasi Pemilihan Kendaraan {{ now()->year }}</p>
     </form>
   </main>
 @endsection --}}
@@ -54,7 +54,7 @@
             <div class="col-md-8">
               <div class="mb-4">
               <h3>Sign In</h3>
-              <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p>
+              <p class="mb-4">Login dulu untuk melakukan perhitungan.</p>
             </div>
 
             <form action="/login" method="POST">
@@ -96,7 +96,7 @@
 
 
               <button class="w-100 btn btn-lg btn-primary" type="submit">Masuk Sekarang</button>
-                    <p class="mt-3 mb-3 text-muted">&copy; SPK Course Web Programming (Online) {{ now()->year }}</p>
+                    <p class="mt-3 mb-3 text-muted">&copy; SPK Rekomendasi Pemilihan Kendaraan {{ now()->yea  }}</p>
 
               <span class="d-block text-left my-4 text-muted">&mdash; or login with &mdash;</span>
 
