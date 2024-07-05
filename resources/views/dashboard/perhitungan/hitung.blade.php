@@ -38,9 +38,9 @@
                   <tr>
                     <th>10</th>
                     <th>20</th>
-                    <th>25</th>
                     <th>30</th>
-                    <th>15</th>
+                    <th>30</th>
+                    <th>10</th>
                   </tr>
                   </thead>
                 </table>

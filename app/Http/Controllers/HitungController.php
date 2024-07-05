@@ -15,9 +15,9 @@ class HitungController extends Controller
 
         $bobot1 = 10/$kriteria;
         $bobot2 = 20/$kriteria;
-        $bobot3 = 25/$kriteria;
+        $bobot3 = 30/$kriteria;
         $bobot4 = 30/$kriteria;
-        $bobot5 = 15/$kriteria;
+        $bobot5 = 10/$kriteria;
 
         $widget1 = [
             'kriteria' => $bobot1,
@@ -93,10 +93,10 @@ class HitungController extends Controller
     public function rekomendasi() {
 
         $alternatifs = Alternatif::all();
-        $weights = [10,20,25,30,15]; // Bobot kriteria
+        $weights = [0.1,0.2,0.3,0.3,0.1]; // Bobot kriteria
 
-        // $minValues = $alternatives->min(); // Mendapatkan nilai minimum dari setiap kolom
-        // $maxValues = $alternatives->max(); // Mendapatkan nilai maksimum dari setiap kolom
+        // $minValues = $alternatifs->min(); // Mendapatkan nilai minimum dari setiap kolom
+        // $maxValues = $alternatifs->max(); // Mendapatkan nilai maksimum dari setiap kolom
 
         $results = [];
         $nomor = 0;
@@ -107,22 +107,21 @@ class HitungController extends Controller
             $kriteria_3 = $alternatife->kriteria_3;
             $kriteria_4 = $alternatife->kriteria_4;
             $kriteria_5 = $alternatife->kriteria_5;
-            // $keawetan = $alternative->keawetan;
 
             // Normalisasi setiap nilai kriteria
-            $norm_kriteria_1 = 10 / $kriteria_1;
-            $norm_kriteria_2 = $kriteria_2 / 20;
-            $norm_kriteria_3 = $kriteria_3 / 25;
-            $norm_kriteria_4 = $kriteria_4 / 30;
-            $norm_kriteria_5 = $kriteria_5 / 50;
+            $norm_kriteria_1 = 20 / $kriteria_1;
+            $norm_kriteria_2 = $kriteria_2 / 90;
+            $norm_kriteria_3 = $kriteria_3 / 86;
+            $norm_kriteria_4 = $kriteria_4 / 85;
+            $norm_kriteria_5 = $kriteria_5 / 70;
 
 
             // Hitung hasil SAW
             $hasil =
             ($weights[0] * $norm_kriteria_1)+
-            ($weights[1] * $norm_kriteria_2)  +
+            ($weights[1] * $norm_kriteria_2)+
             ($weights[2] * $norm_kriteria_3)+
-            ($weights[3] * $norm_kriteria_4) +
+            ($weights[3] * $norm_kriteria_4)+
             ($weights[4] * $norm_kriteria_5);
 
             $nomor++;
