@@ -4,7 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\vehicleController;
 use App\Http\Controllers\HitungController;
-use App\Http\Controllers\PesertaController;
 use App\Http\Controllers\KriteriaController;
 use App\Http\Controllers\AlternatifController;
 use App\Http\Controllers\LandingPagesController;
@@ -88,3 +87,4 @@ Route::controller(AlternatifController::class)->group(function() {
 
 
 Route::get('/hitung', [HitungController::class, 'rekomendasi'])->name('hitung');
+

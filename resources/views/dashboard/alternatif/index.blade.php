@@ -1,13 +1,6 @@
 @extends('./layout/page2')
 
 @section('content')
-  {{-- <div class="col-12">
-    <div class="bg-light rounded h-100 p-4">
-        <h6 class="mb-4">Responsive Table</h6>
-        <div class="table-responsive">
-            <table class="table"> --}}
-
-  <!-- Content Wrapper. Contains page content -->
   <div class="col-12">
     <!-- Content Header (Page header) -->
     <section class="bg-light rounded h-100 p-4-header">

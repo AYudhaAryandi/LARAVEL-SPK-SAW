@@ -52,12 +52,7 @@
                       <input type="text" class="form-control" name="bobot" placeholder="Nilai Bobot">
                     </div>
                   </div>
-                  {{-- <div class="form-group row">
-                    <label for="jenis" class="col-sm-2 col-form-label">Jenis Kriteria</label>
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" name="jenis" placeholder="Jenis Kriteria">
-                    </div>
-                  </div> --}}
+
                   <div class="form-group row">
                         <label for="jenis" class="col-sm-2 col-form-label">Jenis Kriteria</label>
                         <div class="col-sm-10">
@@ -67,18 +62,7 @@
                         </select>
                         </div>
                     </div>
-                  <!-- <div class="form-group row">
-                    <label for="alamat" class="col-sm-2 col-form-label">Alamat</label>
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" name="alamat" placeholder="Alamat">
-                    </div>
-                  </div> -->
-                  <!-- <div class="form-group row">
-                    <label for="tinggi_badan" class="col-sm-2 col-form-label">Tinggi Badan</label>
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" name="tinggi_badan" placeholder="Tinggi Badan">
-                    </div>
-                  </div> -->
+
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer">

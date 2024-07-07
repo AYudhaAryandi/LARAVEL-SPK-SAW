@@ -1,47 +1,4 @@
 @extends('layout.auth')
-
-{{-- @section('content')
-  <main class="form-signin">
-    <img class="mb-4" src="/assets/img/logops3.jpg" alt="" width="150" height="57">
-    <p><font size="5" face="Verdana">SPK Pemilihan Kendaraan <br> </font></p>
-    <h1 class="h3 mb-3 fw-normal">Masuk</h1>
-
-    <form action="/" method="POST">
-      @csrf
-
-      <div class="form-floating">
-        <input type="text" class="form-control @error('username') is-invalid @enderror" name="username" id="username" placeholder="name@example.com" autocomplete="off" autofocus required>
-        <label for="username">Username</label>
-
-        @error('username')
-          <div class="invalid-feedback">
-            {{ $message }}
-          </div>
-        @enderror
-      </div>
-
-      <div class="form-floating">
-        <input type="password" class="form-control @error('password') is-invalid @enderror" id="password" name="password" placeholder="Password" required>
-        <label for="password">Password</label>
-
-        @error('password')
-          <div class="invalid-feedback">
-            {{ $message }}
-          </div>
-        @enderror
-      </div>
-
-      <div class="mb-2 @error('password') mt-4 @enderror">
-        Tidak mempunyai akun?
-        <a href="/signup" class="text-decoration-none">Buat akun disini</a>
-      </div>
-
-      <button class="w-100 btn btn-lg btn-primary" type="submit">Masuk Sekarang</button>
-      <p class="mt-3 mb-3 text-muted">&copy; SPK Rekomendasi Pemilihan Kendaraan {{ now()->year }}</p>
-    </form>
-  </main>
-@endsection --}}
-
 @section('content')
   <div class="content mt-7 p-7 m-7">
     <div class="container">
@@ -87,7 +44,8 @@
                   <input type="checkbox" checked="checked"/>
                   <div class="control__indicator"></div>
                 </label>
-
+                <label class="control control--checkbox mb-0"><span class="caption"><a href="">Forgot Password?</a></span>
+                </label>
               </div>
               <div class="mb-2 @error('password') mt-4 @enderror">
                 Tidak mempunyai akun?
@@ -97,20 +55,6 @@
 
               <button class="w-100 btn btn-lg btn-primary" type="submit">Masuk Sekarang</button>
                     <p class="mt-3 mb-3 text-muted">&copy; SPK Rekomendasi Pemilihan Kendaraan {{ now()->year}}</p>
-
-              <span class="d-block text-left my-4 text-muted">&mdash; or login with &mdash;</span>
-
-              <div class="social-login">
-                <a href="#" class="facebook">
-                  <span class="icon-facebook mr-3"></span>
-                </a>
-                <a href="#" class="twitter">
-                  <span class="icon-twitter mr-3"></span>
-                </a>
-                <a href="#" class="google">
-                  <span class="icon-google mr-3"></span>
-                </a>
-              </div>
             </form>
             </div>
           </div>

@@ -2,7 +2,6 @@
 
 @section('content')
   <section class="col-12">
-    <!-- Content Header (Page header) -->
     <section class="bg-light rounded h-100 p-4-header">
       <div class="mb-4">
         <div class="table-responsive-2">
@@ -16,12 +15,12 @@
             </ol>
           </div>
         </div>
-      </div><!-- /.container-fluid -->
+      </div>
     </section>
 
-    <!-- Main content -->
+ 
   <section class="col-12">
-    <!-- Content Header (Page header) -->
+
     <section class="bg-light rounded h-100 p-4-header">
       <div class="mb-4">
         <div class="table-responsive-2">
@@ -29,8 +28,7 @@
               <div class="card-header">
                 <h3 class="card-title">Add Alternatif</h3>
               </div>
-              <!-- /.card-header -->
-              <!-- form start -->
+
               <form method="POST" action="{{ url('/alternatif/store')}}" class="form-horizontal">
                 @csrf
                 <div class="card-body">
@@ -77,24 +75,19 @@
                     </div>
                   </div>
                 </div>
-                <!-- /.card-body -->
+               
                 <div class="card-footer">
                   <button type="submit" style="background-color: #198754;" class="btn btn-success float-right">Create</button>
                 </div>
-                <!-- /.card-footer -->
+                
               </form>
             </div>
-
-            <!-- /.card -->
-
           </div>
-          <!--/.col (left) -->
         </div>
-        <!-- /.row -->
-      </div><!-- /.container-fluid -->
+      </div>
     </section>
-    <!-- /.content -->
+ 
   </div>
-  <!-- /.content-wrapper -->
+
 
   @endsection
